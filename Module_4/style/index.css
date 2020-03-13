@@ -119,7 +119,7 @@
  
  .gallery-title::after {
      display: block;
-     content: url(/image/image-twelve.jpg);
+     content: url(image/image-twelve.jpg);
      margin: 0 auto;
  }
  
@@ -195,7 +195,7 @@
  
  .blog-title::after {
      display: block;
-     content: url(/image/image-thirteen.jpg);
+     content: url(image/image-thirteen.jpg);
      margin: 0 auto;
  }
  
@@ -234,7 +234,7 @@
  
  .blog-list h3::after {
      display: block;
-     content: url(/image/image-fourteen.jpg);
+     content: url(image/image-fourteen.jpg);
  }
  
  .blog-list p {
