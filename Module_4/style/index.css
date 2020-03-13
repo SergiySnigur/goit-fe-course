@@ -1,0 +1,265 @@
+ html {
+     box-sizing: border-box;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+     box-sizing: inherit;
+ }
+ 
+ body {
+     font-family: 'Open Sans', sans-serif;
+     color: #515151;
+     font-size: 14px;
+     line-height: 26px;
+ }
+ 
+ img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+ 
+ .container {
+     width: 1110px;
+     margin: 0 auto;
+ }
+ 
+ .clearfix::after {
+     display: table;
+     content: "";
+     clear: both;
+ }
+ /* SITE_HEADER */
+ 
+ .page-nav {
+     padding: 36px 0;
+ }
+ 
+ .site-header {
+     margin-bottom: 62px;
+ }
+ 
+ .site-logo {
+     text-decoration: none;
+     float: left;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+     line-height: 32px;
+     color: #555252;
+     font-weight: 900;
+     text-transform: uppercase;
+ }
+ 
+ .site-logo::first-letter {
+     color: #1abc9c;
+ }
+ 
+ .site-logo:hover,
+ .site-logo:focus {
+     color: #1abc9c;
+ }
+ 
+ .site-navigation {
+     float: right;
+     margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     line-height: 17px;
+     list-style: none;
+ }
+ /* Специально задал margin-top 10px что бы
+ выровнять ссылку MART и список li */
+ 
+ .site-navigation li {
+     float: left;
+     margin-top: 8px;
+ }
+ 
+ .site-navigation li:not(:last-child) {
+     margin-right: 34px;
+ }
+ 
+ .site-navigation a {
+     color: #555252;
+     line-height: 11px;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ 
+ .site-navigation a:hover,
+ .site-navigation a:focus {
+     color: #1abc9c;
+ }
+ /* GALLERY SECTION */
+ 
+ .gallery {
+     line-height: 0;
+     margin-bottom: 98px;
+ }
+ 
+ .gallery-title {
+     display: block;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     font-size: 48px;
+     font-weight: 900;
+     text-transform: uppercase;
+     color: #515151;
+     line-height: 32px;
+     margin-bottom: 122px;
+ }
+ 
+ .gallery-title::after {
+     display: block;
+     content: url(/image/image-twelve.jpg);
+     margin: 0 auto;
+ }
+ 
+ .gallery-list {
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     list-style: none;
+ }
+ 
+ .gallery-list-item {
+     float: left;
+     margin-right: 30px;
+     width: 255px;
+ }
+ 
+ .gallery-list li:nth-child(-n+4) {
+     margin-bottom: 30px;
+ }
+ 
+ .gallery-list-item img {
+     height: 282px;
+ }
+ 
+ .gallery-list-item:nth-child(4n) {
+     margin-right: 0px;
+ }
+ 
+ .gallery-list a {
+     line-height: 32px;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: 900;
+ }
+ 
+ .gallery-product-name {
+     padding: 7px 0 7px 12px;
+     float: left;
+     width: 200px;
+     font-size: 18px;
+     color: #ffffff;
+     background-color: #323232;
+ }
+ 
+ .gallery-product-prise {
+     padding: 7px 12px;
+     width: 55px;
+     float: right;
+     color: #ffffff;
+     background-color: #8c8c8c;
+     font-size: 18px;
+ }
+ 
+ .gallery-list-item div:hover,
+ .gallery-list-item div:focus {
+     color: #1abc9c;
+ }
+ /* BLOG SECTION */
+ 
+ .blog-title {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     font-size: 48px;
+     line-height: 32px;
+     font-weight: 900;
+     color: #555252;
+     text-transform: uppercase;
+     margin-bottom: 112px;
+ }
+ 
+ .blog-title::after {
+     display: block;
+     content: url(/image/image-thirteen.jpg);
+     margin: 0 auto;
+ }
+ 
+ .blog-list {
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif;
+     list-style: none;
+ }
+ 
+ .blog-list-item {
+     margin: 0;
+     padding: 0;
+     width: 350px;
+     float: left;
+ }
+ 
+ .blog-list img {
+     margin-bottom: 14px;
+ }
+ 
+ .blog-list-item:not(:last-child) {
+     margin-right: 30px;
+ }
+ 
+ .blog-list h3 {
+     margin: 0;
+     padding: 0;
+     color: #555252;
+     font-size: 18px;
+     line-height: 26px;
+     font-weight: 700;
+     margin-bottom: 40px;
+ }
+ 
+ .blog-list h3::after {
+     display: block;
+     content: url(/image/image-fourteen.jpg);
+ }
+ 
+ .blog-list p {
+     margin: 0;
+     padding: 0;
+     color: #555252;
+     font-size: 14px;
+     list-style: 26px;
+     font-weight: 700;
+     margin-bottom: 12px;
+ }
+ 
+ .blog-list a {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     color: #ffffff;
+     background-color: #4ec6ab;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     border-radius: 3px;
+     width: 160px;
+     height: 50px;
+     position: absolute;
+     text-align: center;
+     padding: 14px 0;
+ }
