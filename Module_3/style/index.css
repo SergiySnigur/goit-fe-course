@@ -78,6 +78,10 @@ html {
 
 /* features-list-items */
 
+.features-list {
+    margin-bottom: 70px;
+}
+
 .features-list-items {
     width: 420px;
     display: inline-block;
@@ -125,7 +129,7 @@ html {
     padding: 0;
 }
 
-.features-list-items:nth-last-child(-n+2) {
+.features-list-items:nth-last-of-type(-n+2) {
     margin-bottom: 54px;
 }
 
@@ -149,7 +153,6 @@ html {
     border-style: solid;
     margin-left: 360px;
     cursor: pointer;
-    margin-bottom: 70px;
 }
 
 .page-footer:hover,
