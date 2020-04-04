@@ -1,0 +1,303 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/* body {
+    font-size: 14px;
+} */
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* HEADER */
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 130px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-title {
+    display: block;
+    font-family: Pacifico;
+    font-size: 26px;
+    line-height: 41px;
+    color: #222222;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-title:hover,
+.site-title:focus {
+    color: #fed136;
+    transition: 200ms linear;
+}
+
+.site-list {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 485px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-list-items a {
+    display: block;
+    font-family: Montserrat Bold;
+    font-size: 14px;
+    line-height: 41px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.site-list-items a:hover,
+.site-list-items a:focus {
+    color: #fed136;
+    transition: 200ms linear;
+}
+
+
+/* SERVICE */
+
+.service {
+    padding-top: 44px;
+    margin-bottom: 120px;
+}
+
+.service-title {
+    font-family: Montserrat Bold;
+    font-size: 40px;
+    line-height: 75px;
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.service-about {
+    font-family: Droid Serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #777777;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-items h3 {
+    font-family: Montserrat Bold;
+    font-size: 18px;
+    line-height: 75px;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-items p {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    line-height: 17px;
+    color: #777777;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-items:nth-child(1)::before {
+    display: block;
+    height: 72px;
+    content: '';
+    background-image: url(../img/Icon-Basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list-items:nth-child(2)::before {
+    display: block;
+    height: 72px;
+    content: '';
+    background-image: url(../img/Icon-Laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-list-items:nth-child(3)::before {
+    display: block;
+    height: 72px;
+    content: '';
+    background-image: url(../img/Icon-Locked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* REGISTRATION */
+
+.registration {
+    background-image: url(../img/Map\ Image.jpg);
+    min-height: 675px;
+}
+
+.registration-title {
+    font-family: Montserrat Bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-top: 104px;
+}
+
+.registration-about {
+    font-family: Droid Serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #777777;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin: 25px 0px 74px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 214px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 455px;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-input::placeholder {
+    font-family: Montserrat Bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.form-input:invalid {
+    outline-color: red;
+}
+
+.form-input:valid {
+    outline-color: green;
+}
+
+.infrormation-form textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 455px;
+    min-height: 214px;
+    resize: none;
+    margin: 0;
+    padding: 0;
+}
+
+.infrormation-form textarea:invalid {
+    outline-color: red;
+}
+
+.infrormation-form textarea:valid {
+    outline-color: green;
+}
+
+.infrormation-form textarea::placeholder {
+    font-family: Montserrat Bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding: 14px 0px 0px 20px;
+}
+
+.form-button {
+    display: block;
+    margin: 0 auto;
+    font-family: Montserrat Bold;
+    cursor: pointer;
+    padding: 20px 25px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fed136;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}

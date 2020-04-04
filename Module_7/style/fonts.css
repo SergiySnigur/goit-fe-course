@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Droid Serif;
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/DroidSerif-Italic.woff);
+}
+
+@font-face {
+    font-family: Pacifico;
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/pacifico-v16-latin-regular.woff);
+    src: url(../fonts/pacifico-v16-latin-regular.woff2);
+}
+
+@font-face {
+    font-family: Roboto Slab;
+    font-weight: 400;
+    src: url(../fonts/roboto-slab-v11-latin-regular.woff);
+    src: url(../fonts/roboto-slab-v11-latin-regular.woff2);
+}
+
+@font-face {
+    font-family: Montserrat Regular;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/montserrat-v14-latin-regular.woff);
+    src: url(../fonts/montserrat-v14-latin-regular.woff2);
+}
+
+@font-face {
+    font-family: Montserrat Bold;
+    font-weight: 700;
+    src: url(../fonts/montserrat-v14-latin-700.woff);
+    src: url(../fonts/montserrat-v14-latin-700.woff2);
+}
