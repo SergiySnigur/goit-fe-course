@@ -1,0 +1,104 @@
+    @media (min-width:768px) and (max-width:941px) {
+        .container {
+            width: 768px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+        /* PAGE-HEADER */
+        .page-header {
+            background-image: url(../images/background-tablet.jpg);
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 68px;
+        }
+        .page-nav {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            padding: 38px 0;
+        }
+        .promo-list {
+            margin: 0;
+            padding: 0;
+            margin-right: 40px;
+        }
+        .promo-title {
+            margin: 0;
+            padding: 0;
+            margin-left: 36px;
+        }
+        /* PROMO_SECTION */
+        .promo-section {
+            margin-top: 110px;
+        }
+        /* PARTNER */
+        /* задал фиксированую ширину */
+        .partner-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 492px;
+            margin: 0 auto;
+            padding: 0;
+            margin-bottom: 38px;
+        }
+        .partner-list-items {
+            flex-basis: 236px;
+            margin: 0;
+            padding: 0;
+        }
+        .partner-list-items:not(:nth-last-child(-n+2)) {
+            margin-bottom: 58px;
+        }
+        .partner-list-items p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    @media (min-width:942px) {
+        .container {
+            width: 942px;
+            margin: 0 auto;
+        }
+        /* PAGE-HEADER */
+        .page-header {
+            background-image: url(../images/background-desktop.jpg);
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 68px;
+        }
+        .page-nav {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            padding: 38px 0;
+        }
+        .promo-title {
+            margin: 0;
+            padding: 0;
+        }
+        /* PARTNER */
+        .partner-list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 38px;
+        }
+        .partner-list-items {
+            flex-basis: 220px;
+            margin: 0;
+            padding: 0;
+        }
+    }
