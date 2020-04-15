@@ -36,7 +36,6 @@ img {
     background-size: cover;
     margin: 0;
     padding: 0;
-    margin-bottom: 68px;
 }
 
 .page-nav {
@@ -55,6 +54,7 @@ img {
 }
 
 .promo-list-items {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -184,7 +184,8 @@ img {
 
 /* PARTNER */
 
-.partner {
+.partner-section {
+    padding-top: 68px;
     padding-bottom: 56px;
 }
 
@@ -213,6 +214,10 @@ img {
     margin: 0 auto;
     padding: 0;
     flex-basis: 236px;
+}
+
+.partner-list-items:not(:last-child) {
+    margin-bottom: 28px;
 }
 
 .partner-image {
@@ -304,7 +309,6 @@ img {
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-bottom: 28px;
 }
 
 .more-partner {

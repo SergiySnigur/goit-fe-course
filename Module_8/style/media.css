@@ -1,6 +1,6 @@
     @media (min-width:768px) and (max-width:941px) {
         .container {
-            width: 768px;
+            width: 748px;
             margin: 0 auto;
             padding: 0 10px;
         }
@@ -12,7 +12,6 @@
             background-size: cover;
             margin: 0;
             padding: 0;
-            margin-bottom: 68px;
         }
         .page-nav {
             display: flex;
@@ -38,6 +37,10 @@
             margin-top: 110px;
         }
         /* PARTNER */
+        .partner-section {
+            padding-top: 68px;
+            padding-bottom: 56px;
+        }
         /* задал фиксированую ширину */
         .partner-list {
             display: flex;
@@ -64,7 +67,7 @@
     
     @media (min-width:942px) {
         .container {
-            width: 942px;
+            width: 922px;
             margin: 0 auto;
         }
         /* PAGE-HEADER */
@@ -75,7 +78,6 @@
             background-size: cover;
             margin: 0;
             padding: 0;
-            margin-bottom: 68px;
         }
         .page-nav {
             display: flex;
@@ -91,6 +93,10 @@
             padding: 0;
         }
         /* PARTNER */
+        .partner-section {
+            padding-top: 68px;
+            padding-bottom: 56px;
+        }
         .partner-list {
             display: flex;
             justify-content: space-between;
