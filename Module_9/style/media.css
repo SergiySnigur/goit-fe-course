@@ -1,0 +1,43 @@
+    @media(max-width:767px) {
+        /* HEADER */
+        .page-header {
+            background-image: url(../images/background-mobile.jpg);
+            min-height: 540px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .promo-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    @media(min-width:768px) and (max-width:991px) {
+        .page-header {
+            background-image: url(../images/background-tablet.jpg);
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .promo-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    @media(min-width:992px) {
+        .page-header {
+            background-image: url(../images/background-desktop.jpg);
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .promo-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }

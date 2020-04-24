@@ -1,0 +1,328 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* PROMO */
+
+.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+.page-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.promo-list {
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;
+}
+
+.promo-list-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.log-button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: color 200ms linear;
+}
+
+.log-button:hover,
+.log-button:focus {
+    color: #ff4e50;
+}
+
+.sign-button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    width: 94px;
+    height: 40px;
+    transition: background-color 200ms linear;
+}
+
+.sign-button:hover,
+.sign-button:focus {
+    background-color: #ff4e50;
+}
+
+.promo-title {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: color 200ms linear;
+}
+
+.promo-title:hover,
+.promo-title:focus {
+    color: #ff4e50;
+}
+
+
+/* PROMO-SECTION */
+
+.promo-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.promo-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.promo-section a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0;
+    padding: 11px;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    transition: transform 200ms linear;
+}
+
+.promo-section a:hover,
+.promo-section a:focus {
+    transform: scale(1.07);
+}
+
+
+/* PARTNER */
+
+.partner-section {
+    padding-top: 68px;
+    padding-bottom: 56px;
+}
+
+.partner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 36px;
+}
+
+.partner-list {
+    margin: 0;
+    padding: 0;
+}
+
+.partner-list-items {
+    position: relative;
+    list-style: none;
+    width: 195px;
+    margin: 0 auto;
+    padding: 0;
+    flex-basis: 236px;
+}
+
+.partner-image {
+    position: relative;
+    height: 122px;
+    width: 122px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.partner-image img {
+    position: relative;
+    height: 122px;
+    width: 122px;
+    margin: 0 auto;
+}
+
+.partner-list-items a {
+    transition: transform 200ms linear;
+}
+
+.partner-list-items a:hover,
+.partner-list-items a:focus {
+    transform: scale(1.1);
+}
+
+.icon-one {
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 42px;
+    content: '';
+    background-image: url(../images/icon-one.png);
+    top: 80px;
+    left: 90px;
+}
+
+.icon-two {
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 42px;
+    content: '';
+    background-image: url(../images/icon-two.png);
+    top: 80px;
+    left: 90px;
+}
+
+.icon-three {
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 42px;
+    content: '';
+    background-image: url(../images/icon-three.png);
+    top: 80px;
+    left: 90px;
+}
+
+.icon-four {
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 42px;
+    content: '';
+    background-image: url(../images/icon-four.png);
+    top: 80px;
+    left: 90px;
+}
+
+.partner-list-items h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.partner-list-items p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.more-partner {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #ff4e50;
+    margin: 0 auto;
+    padding: 0;
+    padding: 11px 0;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    width: 284px;
+    height: 44px;
+    transition: background-color 200ms linear;
+}
+
+.more-partner:hover,
+.more-partner:focus {
+    background-color: #666666;
+}
+
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
