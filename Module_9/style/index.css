@@ -25,9 +25,11 @@ img {
 }
 
 .promo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    padding: 20px 0;
 }
 
 .promo-list-items {
@@ -107,9 +109,14 @@ img {
 
 /* PROMO-SECTION */
 
+.promo-section {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .promo-section h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 36px;
     font-weight: 700;
     color: #ffffff;
@@ -117,12 +124,12 @@ img {
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .promo-section p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     font-weight: 300;
     color: #ffffff;
@@ -174,20 +181,19 @@ img {
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
 }
 
 .partner-list {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    margin-bottom: 30px;
 }
 
 .partner-list-items {
     position: relative;
     list-style: none;
     width: 195px;
-    margin: 0 auto;
-    padding: 0;
     flex-basis: 236px;
 }
 
@@ -267,8 +273,8 @@ img {
     color: #333333;
     margin: 0;
     padding: 0;
-    margin-bottom: 16px;
     text-align: center;
+    margin-bottom: 14px;
 }
 
 .partner-list-items p {

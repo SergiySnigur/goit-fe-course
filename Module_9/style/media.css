@@ -1,43 +1,91 @@
-    @media(max-width:767px) {
-        /* HEADER */
-        .page-header {
-            background-image: url(../images/background-mobile.jpg);
-            min-height: 540px;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .promo-list {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    
-    @media(min-width:768px) and (max-width:991px) {
-        .page-header {
-            background-image: url(../images/background-tablet.jpg);
-            min-height: 700px;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .promo-list {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    
-    @media(min-width:992px) {
-        .page-header {
-            background-image: url(../images/background-desktop.jpg);
-            min-height: 700px;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .promo-list {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
+            @media(max-width:767px) {
+                /* HEADER */
+                .page-header {
+                    background-image: url(../images/background-mobile.jpg);
+                    padding-top: 20px;
+                    padding-bottom: 138px;
+                    min-height: 540px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .promo-list {
+                    margin-bottom: 118px;
+                }
+                .promo-title {
+                    margin-bottom: 34px;
+                }
+                /* PARTNER */
+                .partner-list li:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+            }
+            
+            @media(min-width:768px) and (max-width:991px) {
+                /* HEADER */
+                .page-header {
+                    background-image: url(../images/background-tablet.jpg);
+                    padding-top: 38px;
+                    padding-bottom: 234px;
+                    min-height: 700px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .promo-section {
+                    margin-top: 146px;
+                }
+                .promo-section h2 {
+                    font-size: 44px;
+                    line-height: 52px;
+                }
+                .promo-section p {
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                .promo-list {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                /* PARTNER */
+                .partner-list {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 492px;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+                .partner-list-items:not(:nth-last-child(-n+2)) {
+                    margin-bottom: 58px;
+                }
+            }
+            
+            @media(min-width:992px) {
+                /* HEADER */
+                .page-header {
+                    background-image: url(../images/background-desktop.jpg);
+                    padding-top: 38px;
+                    padding-bottom: 234px;
+                    min-height: 700px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .promo-section {
+                    margin-top: 146px;
+                }
+                .promo-section h2 {
+                    font-size: 44px;
+                    line-height: 52px;
+                }
+                .promo-section p {
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                .partner-list {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+            }
