@@ -199,13 +199,9 @@ img {
 }
 
 
-/* SERVICE */
+/* SECTION */
 
-.service {
-    padding-top: 45px;
-}
-
-.service__title {
+.section__title {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -219,7 +215,7 @@ img {
     margin-bottom: 42px;
 }
 
-.service__title:after {
+.section__title:after {
     display: block;
     content: "";
     width: 60px;
@@ -229,7 +225,7 @@ img {
     margin-top: 40px;
 }
 
-.service__title--italic {
+.section__title--italic {
     display: block;
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -241,6 +237,13 @@ img {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+}
+
+
+/* SERVICE */
+
+.service {
+    padding-top: 45px;
 }
 
 .service__list {
@@ -308,44 +311,6 @@ img {
     padding-bottom: 45px;
 }
 
-.team__title {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    color: #333333;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 42px;
-}
-
-.team__title::after {
-    display: block;
-    content: "";
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-
-.team__title--italic {
-    display: block;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 400;
-    color: #333333;
-    text-align: center;
-    text-transform: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
 .team__about {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -359,7 +324,7 @@ img {
     margin-bottom: 90px;
 }
 
-.team__item--image {
+.team__image {
     display: block;
     width: 380px;
     height: 470px;
@@ -390,7 +355,7 @@ img {
     padding: 0;
 }
 
-.team__item--name {
+.team__name {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 17px;
@@ -403,7 +368,7 @@ img {
     margin-bottom: 14px;
 }
 
-.team__item--occupation {
+.team__occupation {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 15px;
@@ -492,7 +457,7 @@ img {
     fill: #ffff;
 }
 
-.team__item:hover .team__item--image {
+.team__item:hover .team__image {
     -webkit-box-shadow: 10px 10px 0px 0px #95e1d3;
     box-shadow: 10px 10px 0px 0px #95e1d3;
     -webkit-transform: translate(-10px, -10px);
